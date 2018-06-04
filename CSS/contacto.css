@@ -1,0 +1,71 @@
+.logo{
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background: #0c9789;
+  opacity: 0.8;
+  margin-bottom: 421px;
+}
+.logotipo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+  padding-top: 8px;
+}
+
+.photo {
+  position: static;
+  background-image:url(/home/adalaber/Documentos/Proyecto página web/Imagenes/fotocabecera.jpg);
+  max-height: 421px;
+  width: 100%;
+  background-size: contain;
+  margin:auto;
+}
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 15px;
+
+}
+
+.copyrigth {
+  text-align: center;
+  color: grey;
+}
+
+.menu_items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_links {
+    color: #54585A;
+    text-decoration: none;
+}
+
+.img {
+  display:block;
+  margin: 30px;
+
+}
+
+.nombrecontacto{
+  color: #099d8d;
+  font-family: 'Rubik', sans-serif;
+  padding: 30px;
+  text-align: center;
+  display:inline-block;
+
+
+}
+
+.textocontacto{
+text-align: center;
+}
