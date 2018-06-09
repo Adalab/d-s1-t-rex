@@ -14,6 +14,50 @@ h2 {
 
   h2 {
     padding-bottom: 15px; } }
+.quienessomos {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.foto {
+  border: 5px solid #f1f1f1;
+  border-radius: 10px;
+  margin-bottom: 15px; }
+
+.contenedoriconos {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px; }
+
+.listaiconos + .listaiconos::before {
+  content: "·";
+  margin: 0 5px; }
+
+.iconos {
+  display: flex;
+  padding: 10px 40px 30px 40px;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none; }
+
+@media all and (min-width: 768px) {
+  .box-descripcion-derecha {
+    display: flex;
+    justify-content: space-between; }
+
+  .box-personal {
+    background: red;
+    padding-left: 0px;
+    height: 205px;
+    margin-left: 30px;
+    text-align: left; }
+
+  .contenedoriconos {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -38px; } }
 .header {
   position: fixed;
   z-index: 1;
@@ -79,39 +123,11 @@ main p {
   font-family: 'OpenSans' ,sans-serif;
   font-size: 16px; }
 
-.quienessomos {
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-.iconos {
-  display: flex;
-  padding: 10px 40px 30px 40px;
-  width: 100px;
-  height: 50px;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none; }
-
-.listaiconos + .listaiconos::before {
-  content: "·";
-  margin: 0 5px; }
-
-.contenedoriconos {
-  display: flex;
-  justify-content: center;
-  margin-top: 15px; }
-
 .fab {
   color: #099d8d; }
 
 .fas {
   color: #099d8d; }
-
-.foto {
-  border: 5px solid #f1f1f1;
-  border-radius: 10px;
-  margin-bottom: 15px; }
 
 .footer {
   font-family: 'Open Sans', sans-serif;
