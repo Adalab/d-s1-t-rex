@@ -1,0 +1,148 @@
+/* estilos del formulario*/
+
+.formulariocontacto {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+align-items: center;
+
+}
+
+
+label  {
+display:inline-block;
+width: 442px;
+padding: 5px 20px;
+margin: 8px 0;
+display: inline-block;
+sizing: 30px;
+}
+
+  input  {
+  width: 442px;
+  padding: 15px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  sizing: 45px;
+
+}
+
+textarea {
+  width: 442px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  sizing: 105px;
+}
+
+.botonenviar {
+background-color: #099d8d;
+color: white;
+width: 442px;
+margin-bottom: 60px;
+margin-top: 30px;
+display: inline-block;
+border-radius: 4px;
+box-sizing: border-box;
+sizing: 45px;
+}
+
+/* estilos del formulario*/
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+
+/*  aqui empiezan los estilos del formulario*/
+.botonenviar {
+background-color: #099d8d;
+color: white;
+width: 206px;
+margin-bottom: 60px;
+margin-top: 30px;
+display: inline-block;
+border-radius: 4px;
+box-sizing: border-box;
+sizing: 45px;
+
+}
+
+.bttenvio {
+width: 442px;
+display: flex;
+align-self: center;
+margin-left: 460px;
+}
+
+
+/*  aqui acaban  los estilos del formulario*/
+
+
+
+@media only screen and (min-width: 1200px){
+
+  .formulariocompleto {
+  background-color: red;
+  width: 601px;
+  }
+
+/* Foto cabecera de contacto para que se amplie a 400px*/
+.photocabeceracontacto {
+  height: 400px;
+
+}
+
+.bttenvio {
+width: 601px;
+display: flex;
+align-self: center;
+margin-left: 800px;
+}
+
+
+label  {
+display:inline-block;
+width: 601px;
+align-self: center;
+
+}
+
+  input  {
+  width: 601px;
+
+
+}
+
+textarea {
+  width: 601px;
+
+}
+
+.botonenviar {
+
+width: 601px;
+background-color: #099d8d;
+color: white;
+width: 206px;
+margin-bottom: 60px;
+margin-top: 30px;
+display: inline-block;
+border-radius: 4px;
+box-sizing: border-box;
+sizing: 45px;
+}
+
+
+
+
+
+
+}
