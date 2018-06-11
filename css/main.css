@@ -1,37 +1,24 @@
 /*
-Error: Invalid CSS after "    line-height: ": expected expression (e.g. 1px, bold), was ": 25px (1.4);"
-        on line 65 of /home/adalaber/Documentos/d-s1-t-rex/scss/_headerpaginacontacto.scss
-        from line 5 of /home/adalaber/Documentos/d-s1-t-rex/scss/main.scss
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 149 of /home/adalaber/Documentos/d-s1-t-rex/scss/_formulario.scss
+        from line 6 of /home/adalaber/Documentos/d-s1-t-rex/scss/main.scss
 
-60:     text-transform: uppercase;
-61:     font-family: 'OpenSans' ,sans-serif;
-62:     font-weight: bold;
-63:     color: white;
-64:     font-size: 18px;
-65:     line-height: : 25px (1.4);
-66:     text-decoration: none;
-67:     text-transform: uppercase;
-68:   }
-69: 
-70: 
+144: 
+145: 
+146: 
+147: 
+148: }
 
 Backtrace:
-/home/adalaber/Documentos/d-s1-t-rex/scss/_headerpaginacontacto.scss:65
-/home/adalaber/Documentos/d-s1-t-rex/scss/main.scss:5
+/home/adalaber/Documentos/d-s1-t-rex/scss/_formulario.scss:149
+/home/adalaber/Documentos/d-s1-t-rex/scss/main.scss:6
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/lexer.rb:231:in `expected!'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:723:in `assert_expr'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:68:in `parse'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1134:in `sass_script'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:988:in `value!'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:796:in `block in try_declaration'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `rethrow'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:809:in `try_declaration'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:679:in `block'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:421:in `media_directive'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:234:in `special_directive'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:209:in `directive'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
@@ -75,4 +62,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"    line-height: \": expected expression (e.g. 1px, bold), was \": 25px (1.4);\"\A         on line 65 of /home/adalaber/Documentos/d-s1-t-rex/scss/_headerpaginacontacto.scss\A         from line 5 of /home/adalaber/Documentos/d-s1-t-rex/scss/main.scss\A \A 60:     text-transform: uppercase;\A 61:     font-family: 'OpenSans' ,sans-serif;\A 62:     font-weight: bold;\A 63:     color: white;\A 64:     font-size: 18px;\A 65:     line-height: : 25px (1.4);\A 66:     text-decoration: none;\A 67:     text-transform: uppercase;\A 68:   }\A 69: \A 70: "; }
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 149 of /home/adalaber/Documentos/d-s1-t-rex/scss/_formulario.scss\A         from line 6 of /home/adalaber/Documentos/d-s1-t-rex/scss/main.scss\A \A 144: \A 145: \A 146: \A 147: \A 148: }"; }
