@@ -35,43 +35,6 @@ main p{
   font-size: 16px;
 }
 
-.header{
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-}
-.logo{
-  height: 60px;
-  width: 100%;
-  background: #0c9789;
-  opacity: 0.8;
-}
-.logotipo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50px;
-  height: 50px;
-  padding-top: 8px;
-}
-.contenedoriconos{
-  display: flex;
-  justify-content: center;
-  margin-top: 15px;
-}
-.iconos {
-  display: flex;
-  padding: 10px 40px 30px 40px;
-  width: 100px;
-  height: 50px;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-}
-.listaiconos + .listaiconos::before {
-  content: "·";
-  margin: 0 5px;
-}
 .hero{
   background-image: url("../imagenes/cabecera.jpg");
   background-position: center center;
