@@ -1,67 +1,25 @@
 /*
-Error: Invalid CSS after "    line-height: ": expected expression (e.g. 1px, bold), was ": 25px (1.4);"
-        on line 65 of /home/adalaber/Documentos/proyectopaginaweb/proyecto1/d-s1-t-rex/scss/_headerpaginacontacto.scss
-        from line 2 of /home/adalaber/Documentos/proyectopaginaweb/proyecto1/d-s1-t-rex/scss/main.scss
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 254 of /home/adalaber/Documentos/proyectopaginaweb/proyecto1/d-s1-t-rex/scss/main.scss
 
-60:     text-transform: uppercase;
-61:     font-family: 'OpenSans' ,sans-serif;
-62:     font-weight: bold;
-63:     color: white;
-64:     font-size: 18px;
-65:     line-height: : 25px (1.4);
-66:     text-decoration: none;
-67:     text-transform: uppercase;
-68:   }
-69: 
-70: 
+249:   font-size: 18px;
+250:   line-height: 25px (1.4);
+251:   text-decoration: none;
+252:   text-transform: uppercase;
+253: }
 
 Backtrace:
-/home/adalaber/Documentos/proyectopaginaweb/proyecto1/d-s1-t-rex/scss/_headerpaginacontacto.scss:65
-/home/adalaber/Documentos/proyectopaginaweb/proyecto1/d-s1-t-rex/scss/main.scss:2
+/home/adalaber/Documentos/proyectopaginaweb/proyecto1/d-s1-t-rex/scss/main.scss:254
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/lexer.rb:231:in `expected!'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:723:in `assert_expr'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:68:in `parse'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1134:in `sass_script'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:988:in `value!'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:796:in `block in try_declaration'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `rethrow'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:809:in `try_declaration'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:679:in `block'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:321:in `to_tree'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
 /usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
@@ -75,4 +33,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"    line-height: \": expected expression (e.g. 1px, bold), was \": 25px (1.4);\"\A         on line 65 of /home/adalaber/Documentos/proyectopaginaweb/proyecto1/d-s1-t-rex/scss/_headerpaginacontacto.scss\A         from line 2 of /home/adalaber/Documentos/proyectopaginaweb/proyecto1/d-s1-t-rex/scss/main.scss\A \A 60:     text-transform: uppercase;\A 61:     font-family: 'OpenSans' ,sans-serif;\A 62:     font-weight: bold;\A 63:     color: white;\A 64:     font-size: 18px;\A 65:     line-height: : 25px (1.4);\A 66:     text-decoration: none;\A 67:     text-transform: uppercase;\A 68:   }\A 69: \A 70: "; }
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 254 of /home/adalaber/Documentos/proyectopaginaweb/proyecto1/d-s1-t-rex/scss/main.scss\A \A 249:   font-size: 18px;\A 250:   line-height: 25px (1.4);\A 251:   text-decoration: none;\A 252:   text-transform: uppercase;\A 253: }"; }

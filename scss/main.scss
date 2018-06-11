@@ -1,9 +1,20 @@
 @import "_equipo.scss";
+
+@import "_descripciones.scss";
+@import "_variables.scss";
 @import "_headerpaginacontacto.scss";
 @import "_formulario.scss";
 
+
 body{
   margin: 0;
+
+
+.header{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+
 }
 h1{
   font-family: 'Open Sans',sans-serif;
@@ -60,11 +71,91 @@ main p{
   text-align: center;
   font-size: 18px;
 }
+@media all and (min-width: 768px) {
+  .hero__title{
+    background:rgba(255,255,255, .8);
+    transform: translateY(0);
+    padding: 15px 30px;
+    width: auto;
+    margin-left: 30px;
+    font-size: 24px;
+  }
+  .equipo1{
+    margin: 45px 0 15px 0;
+  }
+}
+h1{
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px (1.4);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+.fab{
+  color: #099d8d;
+}
+.fas{
+  color: #099d8d;
+}
+
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 15px;
+  text-align: center;
+
+}
+h2{
+  color: #099D8D;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+}
+main h3{
+  color: #099d8d;
+  font-family: 'Rubik',sans-serif;
+  font-size: 22px;
+}
+h4{
+  color: #000000;
+  font-family: 'OpenSans' ,sans-serif;
+  font-size: 20px;
+}
+main p{
+  color: #54585A;
+  font-family: 'OpenSans' ,sans-serif;
+  font-size: 16px;
+}
+
 .quienessomos{
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.iconos {
+  display: flex;
+  padding: 10px 40px 30px 40px;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.listaiconos + .listaiconos::before {
+  content: "·";
+  margin: 0 5px;
+}
+.contenedoriconos{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+
+}
+
 
 .fab{
   color: #099d8d;
@@ -82,11 +173,14 @@ main p{
   font-size: 14px;
   padding: 15px;
   text-align: center;
+
 }
+
 .copyrigth {
   text-align: center;
   color: #b8b8b9;
 }
+
 .menu_items {
   margin: 0;
   padding: 0;
@@ -106,7 +200,9 @@ main p{
   margin: 30px;
 
 }
-
+body{
+  margin: 0;
+}
 .container{
   overflow: hidden;
   display: flex;
@@ -154,66 +250,4 @@ main p{
   line-height: 25px (1.4);
   text-decoration: none;
   text-transform: uppercase;
-}
-
-@media all and (min-width: 768px) {
-  .nav-menu{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    padding-right: 145px;
-  }
-  .header{
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    display:flex;
-    justify-content: space-between;
-
-  }
-  .logo{
-    height: 60px;
-    width: 100%;
-    background: #0c9789;
-    opacity: 1;
-  }
-  .logotipo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50px;
-    height: 50px;
-    padding-top: 8px;
-    padding-left: 45px;
-  }
-  .container{
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    height: 60px;
-    background-color: rgba(9,157,141,0.8);
-    justify-content: space-between;
-    display: flex;
-    min-width: 100%;
-    opacity: 1;
-  }
-
-  .listamenu{
-    padding: 0;
-    list-style: none;
-    display: flex;
-  }
-  .hero__title{
-    background:rgba(255,255,255, .8);
-    transform: translateY(0);
-    padding: 15px 30px;
-    width: auto;
-    margin-left: 30px;
-    font-size: 24px;
-  }
 }
