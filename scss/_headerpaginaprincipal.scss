@@ -18,6 +18,31 @@
   padding-top: 8px;
 }
 
+.hero{
+    background-image: url("../imagenes/cabecera.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.contenedor{
+  margin: 0 15px;
+  height: 100%;
+  position: relative;
+}
+.hero__title{
+  margin: 0;
+  transform: translateY(16px);
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: white;
+  text-align: center;
+  font-size: 18px;
+}
 .container{
   overflow: hidden;
   display: flex;
@@ -62,45 +87,32 @@
     font-weight: bold;
     color: white;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 25px (1,4);
     text-decoration: none;
     text-transform: uppercase;
   }
-
-
-
-/* Foto cabecera de contacto,habra que cambiar nombre de la foto a la correspondiente ruta*/
-
-.photocabeceracontacto {
-  background-image:url(imagenes/contacto.jpg);
-  height: 300px;
-  width: 100%;
-  background-size: cover;
-  margin:auto;
-  background-repeat: no-repeat;
-  background-position: center 30%;
+  @media all and (min-width: 768px) {
+  .hero__title{
+    background:rgba(255,255,255, .8);
+    transform: translateY(0);
+    padding: 15px 30px;
+    width: auto;
+    margin-left: 30px;
+    font-size: 24px;
 }
-
-
-
-
-.cabecera {
-visibility: hidden;
+  .equipo1{
+      margin: 45px 0 15px 0;
+  }
 }
-
-
-
-
-
 @media only screen and (min-width: 768px) {
 
-/*  aqui empiezan los estilos de la cabecera*/
 .header{
   position: fixed;
   z-index: 1;
   width: 100%;
   display:flex;
   justify-content: space-between;
+  opacity: 1;
 
 }
 .container{
@@ -139,4 +151,3 @@ visibility: hidden;
     padding-right: 145px;
   }
 }
-/*  aqui acaban los estilos de la cabecera*/
