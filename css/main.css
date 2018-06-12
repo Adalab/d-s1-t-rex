@@ -389,10 +389,15 @@ main h3 {
     margin-right: -30px; }
 
   .foto {
-    transition-property: width;
-    transition-duration: 5s; }
+    transition: border-radius ease 5s; }
     .foto:hover {
-      width: 250px; } }
+      width: 250px;
+      border-radius: 50%; }
+
+  .nombre {
+    transition: font ease 3s; }
+    .nombre:hover {
+      font-size: 33px; } }
 .header {
   position: fixed;
   z-index: 1;

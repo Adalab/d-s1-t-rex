@@ -102,11 +102,18 @@
     margin-right:-30px;
   }
   .foto{
-  transition-property: width;
-   transition-duration: 5s;
+  transition: border-radius ease 5s;
+// ---------no me sale---------
   &:hover{
       width: 250px ;
+      border-radius: 50%;
     }
-
+  }
+.nombre{
+  transition: font ease 3s;
+  &:hover{
+    font-size: 33px;
+  }
 }
+
 }
