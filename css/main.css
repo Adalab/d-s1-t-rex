@@ -1,65 +1,562 @@
-/*
-Error: Invalid CSS after "}": expected "}", was ""
-        on line 149 of /home/adalaber/Documentos/d-s1-t-rex/scss/_formulario.scss
-        from line 6 of /home/adalaber/Documentos/d-s1-t-rex/scss/main.scss
+@charset "UTF-8";
+.equipo {
+  text-align: center; }
 
-144: 
-145: 
-146: 
-147: 
-148: }
+h2 {
+  color: #099D8D;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px; }
 
-Backtrace:
-/home/adalaber/Documentos/d-s1-t-rex/scss/_formulario.scss:149
-/home/adalaber/Documentos/d-s1-t-rex/scss/main.scss:6
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:679:in `block'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:421:in `media_directive'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:234:in `special_directive'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:209:in `directive'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:321:in `to_tree'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-/usr/share/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-/usr/share/koala/bin/sass:22:in `load'
-/usr/share/koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 149 of /home/adalaber/Documentos/d-s1-t-rex/scss/_formulario.scss\A         from line 6 of /home/adalaber/Documentos/d-s1-t-rex/scss/main.scss\A \A 144: \A 145: \A 146: \A 147: \A 148: }"; }
+@media all and (min-width: 768px) {
+  .descripcion {
+    padding-top: 45px;
+    padding-bottom: 60px; }
+
+  h2 {
+    padding-bottom: 15px; } }
+main h3 {
+  color: #099d8d;
+  font-family: 'Rubik',sans-serif;
+  font-size: 22px; }
+  @media all and (min-width: 768px) {
+    main h3 {
+      margin-bottom: 15px; } }
+
+.fortalezasydebilidades {
+  background: #f1f1f1;
+  padding-top: 15px;
+  padding-bottom: 22px; }
+  @media all and (min-width: 768px) {
+    .fortalezasydebilidades {
+      padding-top: 30px;
+      padding-bottom: 38px;
+      display: flex;
+      justify-content: space-between; } }
+
+@media all and (min-width: 768px) {
+  .sectionfortaleza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: 30px; } }
+@media all and (min-width: 1200px) {
+  .sectionfortaleza {
+    margin-left: 45px; } }
+
+.header {
+  position: fixed;
+  z-index: 1;
+  width: 100%; }
+
+.logo {
+  height: 60px;
+  width: 100%;
+  background: #0c9789;
+  opacity: 0.8; }
+
+.logotipo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+  padding-top: 8px; }
+
+.container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 45px;
+  background-color: rgba(9, 157, 141, 0.8);
+  justify-content: space-between;
+  display: flex;
+  min-width: 100%; }
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
+.listamenu {
+  padding: 0;
+  list-style: none;
+  display: flex; }
+
+.menu__items {
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.menu__items:last-child {
+  margin-left: 15px; }
+
+.menu__items:last-child {
+  margin-right: 15px; }
+
+.menu__link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'OpenSans' ,sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+/* Foto cabecera de contacto,habra que cambiar nombre de la foto a la correspondiente ruta*/
+.photocabeceracontacto {
+  background-image: url(imagenes/contacto.jpg);
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center 30%; }
+
+.cabecera {
+  visibility: hidden; }
+
+@media only screen and (min-width: 768px) {
+  /*  aqui empiezan los estilos de la cabecera*/
+  .header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+
+  .container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    background-color: rgba(9, 157, 141, 0.8);
+    justify-content: space-between;
+    display: flex;
+    min-width: 100%; }
+
+  .logotipo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    padding-top: 8px;
+    padding-left: 45px; }
+
+  .listamenu {
+    padding: 0;
+    list-style: none;
+    display: flex; }
+
+  .nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-right: 145px; } }
+/*  aqui acaban los estilos de la cabecera*/
+/* estilos del formulario*/
+.formulariocontacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center; }
+
+label {
+  display: inline-block;
+  width: 442px;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  sizing: 30px; }
+
+input {
+  width: 442px;
+  padding: 15px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  sizing: 45px; }
+
+textarea {
+  width: 442px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  sizing: 105px; }
+
+.botonenviar {
+  background-color: #099d8d;
+  color: white;
+  width: 442px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  sizing: 45px; }
+
+/* estilos del formulario*/
+@media only screen and (min-width: 768px) {
+  /*  aqui empiezan los estilos del formulario*/
+  .botonenviar {
+    background-color: #099d8d;
+    color: white;
+    width: 206px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    sizing: 45px; }
+
+  .bttenvio {
+    width: 442px;
+    display: flex;
+    align-self: center;
+    margin-left: 460px; } }
+/*  aqui acaban  los estilos del formulario*/
+@media only screen and (min-width: 1200px) {
+  .formulariocompleto {
+    background-color: red;
+    width: 601px; }
+
+  /* Foto cabecera de contacto para que se amplie a 400px*/
+  .photocabeceracontacto {
+    height: 400px; }
+
+  .bttenvio {
+    width: 601px;
+    display: flex;
+    align-self: center;
+    margin-left: 800px; }
+
+  label {
+    display: inline-block;
+    width: 601px;
+    align-self: center; }
+
+  input {
+    width: 601px; }
+
+  textarea {
+    width: 601px; }
+
+  .botonenviar {
+    width: 601px;
+    background-color: #099d8d;
+    color: white;
+    width: 206px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    sizing: 45px; } }
+main h3 {
+  color: #099d8d;
+  font-family: 'Rubik',sans-serif;
+  font-size: 22px; }
+  @media all and (min-width: 768px) {
+    main h3 {
+      margin-bottom: 15px; } }
+
+.fortalezasydebilidades {
+  background: #f1f1f1;
+  padding-top: 15px;
+  padding-bottom: 22px; }
+  @media all and (min-width: 768px) {
+    .fortalezasydebilidades {
+      padding-top: 30px;
+      padding-bottom: 38px;
+      display: flex;
+      justify-content: space-between; } }
+
+@media all and (min-width: 768px) {
+  .sectionfortaleza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: 30px; } }
+@media all and (min-width: 1200px) {
+  .sectionfortaleza {
+    margin-left: 45px; } }
+
+.quienessomos {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.foto {
+  border: 5px solid #f1f1f1;
+  border-radius: 10px;
+  margin-bottom: 15px; }
+
+.contenedoriconos {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px; }
+
+.listaiconos + .listaiconos::before {
+  content: "·";
+  margin: 0 5px; }
+
+.iconos {
+  display: flex;
+  padding: 10px 40px 30px 40px;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none; }
+
+@media all and (min-width: 768px) {
+  .descripciones {
+    margin-left: 45px;
+    margin-right: 45px; }
+
+  .box-descripcion-derecha {
+    display: flex;
+    justify-content: space-between; }
+
+  .box-personal {
+    background: red;
+    padding-left: 0px;
+    height: 205px;
+    margin-left: 30px;
+    text-align: left; }
+
+  .contenedoriconos {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -38px; }
+
+  .box-descripcion-izquierda {
+    display: grid;
+    grid-template-columns: 1fr 205px;
+    grid-template-rows: 1fr;
+    grid-gap: 5px; }
+
+  .box-foto-personal {
+    grid-column: 2; }
+
+  .box-personal {
+    grid-column: 1;
+    grid-row: 1; } }
+.header {
+  position: fixed;
+  z-index: 1;
+  width: 100%; }
+
+.logo {
+  height: 60px;
+  width: 100%;
+  background: #0c9789;
+  opacity: 0.8; }
+
+.logotipo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+  padding-top: 8px; }
+
+.hero {
+  background-image: url("../imagenes/cabecera.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px; }
+
+.contenedor {
+  margin: 0 15px;
+  height: 100%;
+  position: relative; }
+
+.hero__title {
+  margin: 0;
+  transform: translateY(16px);
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: white;
+  text-align: center;
+  font-size: 18px; }
+
+@media all and (min-width: 768px) {
+  .hero__title {
+    background: rgba(255, 255, 255, 0.8);
+    transform: translateY(0);
+    padding: 15px 30px;
+    width: auto;
+    margin-left: 30px;
+    font-size: 24px; }
+
+  .equipo1 {
+    margin: 45px 0 15px 0; } }
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+h2 {
+  color: #099D8D;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px; }
+
+main h3 {
+  color: #099d8d;
+  font-family: 'Rubik',sans-serif;
+  font-size: 22px; }
+
+h4 {
+  color: #000000;
+  font-family: 'OpenSans' ,sans-serif;
+  font-size: 20px; }
+
+main p {
+  color: #54585A;
+  font-family: 'OpenSans' ,sans-serif;
+  font-size: 16px; }
+
+.fab {
+  color: #099d8d; }
+
+.fas {
+  color: #099d8d; }
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 15px;
+  text-align: center; }
+
+h2 {
+  color: #099D8D;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px; }
+
+main h3 {
+  color: #099d8d;
+  font-family: 'Rubik',sans-serif;
+  font-size: 22px; }
+
+h4 {
+  color: #000000;
+  font-family: 'OpenSans' ,sans-serif;
+  font-size: 20px; }
+
+main p {
+  color: #54585A;
+  font-family: 'OpenSans' ,sans-serif;
+  font-size: 16px; }
+
+.fab {
+  color: #099d8d; }
+
+.fas {
+  color: #099d8d; }
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 15px;
+  text-align: center; }
+
+.copyrigth {
+  text-align: center;
+  color: #b8b8b9; }
+
+.menu_items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column; }
+
+.menu_links {
+  color: #54585A;
+  text-decoration: none; }
+
+.img {
+  display: block;
+  margin: 30px; }
+
+body {
+  margin: 0; }
+
+.container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 45px;
+  background-color: rgba(9, 157, 141, 0.8);
+  justify-content: space-between;
+  display: flex;
+  min-width: 100%; }
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
+.listamenu {
+  padding: 0;
+  list-style: none;
+  display: flex; }
+
+.menu__items {
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.menu__items:last-child {
+  margin-left: 15px; }
+
+.menu__items:last-child {
+  margin-right: 15px; }
+
+.menu__link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'OpenSans' ,sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  line-height: 25px 1.4;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=main.css.map */

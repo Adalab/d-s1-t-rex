@@ -30,6 +30,11 @@
 
 @media all and (min-width: 768px) {
 
+  .descripciones{
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
 .box-descripcion-derecha{
   display: flex;
   justify-content:space-between;
@@ -48,5 +53,24 @@ display: flex;
 justify-content: flex-start;
 margin-left: -38px;
 }
+
+.box-descripcion-izquierda{
+  display: grid;
+  grid-template-columns: 1fr  205px ;
+  grid-template-rows: 1fr ;
+  grid-gap: 5px;
+
+
+}
+.box-foto-personal{
+  grid-column: 2;
+
+}
+.box-personal{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+
 
 }
