@@ -11,6 +11,11 @@
   border: 5px solid #f1f1f1;
   border-radius: 10px;
   margin-bottom: 15px;
+  @media all and (min-width: 768px){
+      margin-bottom: 0px;
+
+      // ------esto no lo entiendo-------
+  }
 }
 .contenedoriconos{
   display: flex;
@@ -34,7 +39,7 @@
 
 @media all and (min-width: 768px) {
 
-  .descripciones{
+  .quienessomos{
     margin-top: 45px;
     margin-left: 45px;
     margin-right: 45px;
@@ -45,6 +50,7 @@
   //   justify-content:space-between;
   // }
   .box-descripcion-derecha{
+
     display: grid;
     grid-template-columns:205 1fr;
     grid-template-rows: 1fr ;
@@ -57,7 +63,6 @@
   }
   .box-personal{
     grid-column: 2;
-    background: red;
     padding-left: 0px;
     height: 205px;
     margin-left: 30px;
@@ -80,20 +85,28 @@
   }
   .box-foto-personal2{
     grid-column: 2;
+
   }
   .box-personal2{
     grid-column: 1;
     grid-row: 1;
-    background: red;
     padding-right: 0px;
     height: 205px;
     margin-right: 30px;
     text-align: right;
+
   }
   .contenedoriconos2{
     display: flex;
     justify-content: flex-end;
-    margin-right: -38px;
+    margin-right:-30px;
   }
+  .foto{
+  transition-property: width;
+   transition-duration: 5s;
+  &:hover{
+      width: 250px ;
+    }
 
+}
 }
