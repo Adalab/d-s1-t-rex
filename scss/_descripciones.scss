@@ -23,7 +23,7 @@
   margin-top: 15px;
 
 }
-.listaiconos + .listaiconos:before {
+.listaiconos + .listaiconos::before {
   content: "·";
   margin: 0 5px;
 }

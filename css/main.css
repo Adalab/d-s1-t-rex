@@ -1,22 +1,26 @@
 @charset "UTF-8";
 .equipo {
-  text-align: center; }
-  @media all and (min-width: 768px) {
-    .equipo {
-      margin: 45px 45px 60px 45px; } }
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
 
 h2 {
   color: #099D8D;
   font-family: 'Rubik', sans-serif;
-  font-size: 24px; }
+  font-size: 24px;
+  padding-bottom: 15px; }
 
-@media all and (min-width: 768px) {
-  .descripcion {
-    padding-top: 45px;
-    padding-bottom: 60px; }
+.descripcion {
+  padding: 30px 15px 45px 15px; }
+  @media all and (min-width: 768px) {
+    .descripcion {
+      padding: 45px 45px 60px 45px; } }
+  @media all and (min-width: 1200px) {
+    .descripcion .descripcion {
+      width: 601px; } }
 
-  h2 {
-    padding-bottom: 15px; } }
 main h3 {
   color: #099d8d;
   font-family: 'Rubik',sans-serif;
@@ -27,12 +31,11 @@ main h3 {
 
 .fortalezasydebilidades {
   background: #f1f1f1;
-  padding-top: 15px;
-  padding-bottom: 22px; }
+  padding: 30px 15px 45px 15px; }
   @media all and (min-width: 768px) {
     .fortalezasydebilidades {
-      margin-top: 30px;
-      margin-bottom: 38px;
+      padding-top: 45px;
+      padding-bottom: 60px;
       display: flex;
       justify-content: space-between; } }
   @media all and (min-width: 1200px) {
@@ -47,10 +50,14 @@ main h3 {
     align-items: center;
     width: 50%;
     margin-left: 30px; } }
+
 @media all and (min-width: 1200px) {
-  .sectionfortaleza {
-    margin-top: 45px;
-    margin-bottom: 60px; } }
+  .set-fort-1 {
+    padding-left: 138px; } }
+
+@media all and (min-width: 1200px) {
+  .set-fort-2 {
+    padding-right: 138px; } }
 
 .header {
   position: fixed;
@@ -288,12 +295,11 @@ main h3 {
 
 .fortalezasydebilidades {
   background: #f1f1f1;
-  padding-top: 15px;
-  padding-bottom: 22px; }
+  padding: 30px 15px 45px 15px; }
   @media all and (min-width: 768px) {
     .fortalezasydebilidades {
-      margin-top: 30px;
-      margin-bottom: 38px;
+      padding-top: 45px;
+      padding-bottom: 60px;
       display: flex;
       justify-content: space-between; } }
   @media all and (min-width: 1200px) {
@@ -308,10 +314,14 @@ main h3 {
     align-items: center;
     width: 50%;
     margin-left: 30px; } }
+
 @media all and (min-width: 1200px) {
-  .sectionfortaleza {
-    margin-top: 45px;
-    margin-bottom: 60px; } }
+  .set-fort-1 {
+    padding-left: 138px; } }
+
+@media all and (min-width: 1200px) {
+  .set-fort-2 {
+    padding-right: 138px; } }
 
 .quienessomos {
   text-align: center;
@@ -334,7 +344,7 @@ main h3 {
   justify-content: center;
   margin-top: 15px; }
 
-.listaiconos + .listaiconos:before {
+.listaiconos + .listaiconos::before {
   content: "·";
   margin: 0 5px; }
 
@@ -584,12 +594,6 @@ main p {
   color: #54585A;
   font-family: 'OpenSans' ,sans-serif;
   font-size: 16px; }
-
-.fab {
-  color: #099d8d; }
-
-.fas {
-  color: #099d8d; }
 
 .footer {
   font-family: 'Open Sans', sans-serif;
