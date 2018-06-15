@@ -109,43 +109,13 @@ main p{
   font-size: 16px;
 }
 
-.quienessomos{
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.iconos {
-  display: flex;
-  padding: 10px 40px 30px 40px;
-  width: 100px;
-  height: 50px;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-}
-.listaiconos + .listaiconos::before {
-  content: "·";
-  margin: 0 5px;
-}
-.contenedoriconos{
-  display: flex;
-  justify-content: center;
-  margin-top: 15px;
-
-}
-
-
 .fab{
   color: #099d8d;
 }
 .fas{
   color: #099d8d;
 }
-.foto{
-  border: 5px solid #f1f1f1;
-  border-radius: 10px;
-  margin-bottom: 15px;
-}
+
 .footer {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;

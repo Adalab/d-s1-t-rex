@@ -1,6 +1,9 @@
 @charset "UTF-8";
 .equipo {
   text-align: center; }
+  @media all and (min-width: 768px) {
+    .equipo {
+      margin: 45px 45px 60px 45px; } }
 
 h2 {
   color: #099D8D;
@@ -304,11 +307,17 @@ main h3 {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px; }
+  @media all and (min-width: 768px) {
+    .quienessomos {
+      margin: 45px 45px 0px 45px; } }
 
 .foto {
   border: 5px solid #f1f1f1;
   border-radius: 10px;
   margin-bottom: 15px; }
+  @media all and (min-width: 768px) {
+    .foto {
+      margin-bottom: 0px; } }
 
 .contenedoriconos {
   display: flex;
@@ -329,12 +338,23 @@ main h3 {
   list-style: none; }
 
 @media all and (min-width: 768px) {
+  .quienessomos {
+    margin-top: 45px;
+    margin-left: 45px;
+    margin-right: 45px; }
+
   .box-descripcion-derecha {
-    display: flex;
-    justify-content: space-between; }
+    display: grid;
+    grid-template-columns: 205 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0px;
+    margin-top: 60px; }
+
+  .box-foto-personal {
+    grid-column: 1; }
 
   .box-personal {
-    background: red;
+    grid-column: 2;
     padding-left: 0px;
     height: 205px;
     margin-left: 30px;
@@ -343,7 +363,41 @@ main h3 {
   .contenedoriconos {
     display: flex;
     justify-content: flex-start;
-    margin-left: -38px; } }
+    margin-left: -38px; }
+
+  .box-descripcion-izquierda {
+    display: grid;
+    grid-template-columns: 1fr 205px;
+    grid-template-rows: 1fr;
+    grid-gap: 0px;
+    margin-top: 60px; }
+
+  .box-foto-personal2 {
+    grid-column: 2; }
+
+  .box-personal2 {
+    grid-column: 1;
+    grid-row: 1;
+    padding-right: 0px;
+    height: 205px;
+    margin-right: 30px;
+    text-align: right; }
+
+  .contenedoriconos2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -30px; }
+
+  .foto {
+    transition: border-radius ease 5s; }
+    .foto:hover {
+      width: 250px;
+      border-radius: 50%; }
+
+  .nombre {
+    transition: font ease 3s; }
+    .nombre:hover {
+      font-size: 33px; } }
 .header {
   position: fixed;
   z-index: 1;
@@ -581,39 +635,11 @@ main p {
   font-family: 'OpenSans' ,sans-serif;
   font-size: 16px; }
 
-.quienessomos {
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-.iconos {
-  display: flex;
-  padding: 10px 40px 30px 40px;
-  width: 100px;
-  height: 50px;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none; }
-
-.listaiconos + .listaiconos::before {
-  content: "·";
-  margin: 0 5px; }
-
-.contenedoriconos {
-  display: flex;
-  justify-content: center;
-  margin-top: 15px; }
-
 .fab {
   color: #099d8d; }
 
 .fas {
   color: #099d8d; }
-
-.foto {
-  border: 5px solid #f1f1f1;
-  border-radius: 10px;
-  margin-bottom: 15px; }
 
 .footer {
   font-family: 'Open Sans', sans-serif;
