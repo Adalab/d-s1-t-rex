@@ -389,11 +389,20 @@ main h3 {
     margin-right: -30px; }
 
   .foto {
-    transition: border-radius ease 5s; }
+    animation-duration: 4s;
+    animation-name: fotico;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out; }
     .foto:hover {
       width: 250px;
       border-radius: 50%; }
-
+  @keyframes fotico {
+    from {
+      transform: scale(5);
+      opacity: 0; }
+    to {
+      transform: scale(1);
+      opacity: 1; } }
   .nombre {
     transition: font ease 3s; }
     .nombre:hover {

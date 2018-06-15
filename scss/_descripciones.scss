@@ -102,11 +102,28 @@
     margin-right:-30px;
   }
   .foto{
-  transition: border-radius ease 5s;
-// ---------no me sale---------
+  animation-duration: 4s;
+  animation-name: fotico;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+//   transition: border-radius ease 5s;
+// // ---------no me sale---------
   &:hover{
       width: 250px ;
       border-radius: 50%;
+      @keyframes fotico {
+  from {
+    transform: scale(5) ;
+    opacity: 0;
+
+  }
+
+  to {
+    transform: scale(1) ;
+    opacity: 1;
+  }
+}
+
     }
   }
 .nombre{
