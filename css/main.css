@@ -28,10 +28,14 @@ main h3 {
   padding-bottom: 22px; }
   @media all and (min-width: 768px) {
     .fortalezasydebilidades {
-      padding-top: 30px;
-      padding-bottom: 38px;
+      margin-top: 30px;
+      margin-bottom: 38px;
       display: flex;
       justify-content: space-between; } }
+  @media all and (min-width: 1200px) {
+    .fortalezasydebilidades {
+      padding-left: 138px;
+      padding-right: 138px; } }
 
 @media all and (min-width: 768px) {
   .sectionfortaleza {
@@ -42,7 +46,8 @@ main h3 {
     margin-left: 30px; } }
 @media all and (min-width: 1200px) {
   .sectionfortaleza {
-    margin-left: 45px; } }
+    margin-top: 45px;
+    margin-bottom: 60px; } }
 
 .header {
   position: fixed;
@@ -284,10 +289,14 @@ main h3 {
   padding-bottom: 22px; }
   @media all and (min-width: 768px) {
     .fortalezasydebilidades {
-      padding-top: 30px;
-      padding-bottom: 38px;
+      margin-top: 30px;
+      margin-bottom: 38px;
       display: flex;
       justify-content: space-between; } }
+  @media all and (min-width: 1200px) {
+    .fortalezasydebilidades {
+      padding-left: 138px;
+      padding-right: 138px; } }
 
 @media all and (min-width: 768px) {
   .sectionfortaleza {
@@ -298,7 +307,8 @@ main h3 {
     margin-left: 30px; } }
 @media all and (min-width: 1200px) {
   .sectionfortaleza {
-    margin-left: 45px; } }
+    margin-top: 45px;
+    margin-bottom: 60px; } }
 
 .quienessomos {
   text-align: center;

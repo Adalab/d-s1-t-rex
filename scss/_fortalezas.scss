@@ -13,11 +13,18 @@ main h3 {
     padding-top: 15px;
     padding-bottom: 22px;
 
+
   @media all and (min-width: 768px){
-    padding-top: 30px;
-    padding-bottom: 38px;
+    margin-top: 30px;
+    margin-bottom: 38px;
     display: flex;
     justify-content: space-between;
+
+  }
+
+  @media all and (min-width: 1200px){
+    padding-left: 138px;
+    padding-right: 138px;
 
   }
 }
@@ -34,7 +41,7 @@ main h3 {
   }
 
   @media all and (min-width: 1200px){
-
-    margin-left: 45px;
+    margin-top: 45px;
+    margin-bottom: 60px;
   }
 }
