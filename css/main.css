@@ -429,8 +429,8 @@ main h3 {
 .logo {
   height: 60px;
   width: 100%;
-  background: #0c9789;
-  opacity: 0.8; }
+  background: #099d8d;
+  opacity: 0.9; }
 
 .logotipo {
   display: block;
@@ -438,32 +438,7 @@ main h3 {
   margin-right: auto;
   width: 50px;
   height: 50px;
-  padding-top: 8px; }
-
-.hero {
-  background-image: url("../imagenes/cabecera.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px; }
-
-.contenedor {
-  margin: 0 15px;
-  height: 100%;
-  position: relative; }
-
-.hero__title {
-  margin: 0;
-  transform: translateY(16px);
-  width: 100%;
-  padding: 15px;
-  box-sizing: border-box;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background: white;
-  text-align: center;
-  font-size: 18px; }
+  padding-top: 5px; }
 
 .container {
   overflow: hidden;
@@ -474,7 +449,8 @@ main h3 {
   padding: 0;
   margin: 0;
   height: 45px;
-  background-color: rgba(9, 157, 141, 0.8);
+  background-color: #14d9c4;
+  opacity: 0.9;
   justify-content: space-between;
   display: flex;
   min-width: 100%; }
@@ -502,28 +478,44 @@ main h3 {
   margin-right: 15px; }
 
 .menu__link {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'OpenSans' ,sans-serif;
+  font-family: 'Rubik',sans-serif;
   font-weight: bold;
-  color: white;
-  font-size: 18px;
-  line-height: 25px 1, 4;
+  font-size: 15px;
+  line-height: 25px;
   text-decoration: none;
   text-transform: uppercase; }
 
-@media all and (min-width: 768px) {
-  .hero__title {
-    background: rgba(255, 255, 255, 0.8);
-    transform: translateY(0);
-    padding: 15px 30px;
-    width: auto;
-    margin-left: 30px;
-    font-size: 24px; }
+.hero {
+  background-image: url("../imagenes/cabecera.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px; }
 
-  .equipo1 {
-    margin: 45px 0 15px 0; } }
+.contenedor {
+  margin: 0 15px;
+  height: 100%;
+  position: relative; }
+
+.hero__title {
+  margin: 0;
+  transform: translateY(16px);
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #ffffff;
+  color: #000000;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 600; }
+
 @media only screen and (min-width: 768px) {
   .header {
     position: fixed;
@@ -542,10 +534,15 @@ main h3 {
     padding: 0;
     margin: 0;
     height: 60px;
-    background-color: rgba(9, 157, 141, 0.8);
+    background-color: #0c9789;
     justify-content: space-between;
     display: flex;
-    min-width: 100%; }
+    min-width: 100%;
+    opacity: 1; }
+
+  .logo {
+    opacity: 1;
+    background-color: #0c9789; }
 
   .logotipo {
     display: block;
@@ -553,7 +550,6 @@ main h3 {
     margin-right: auto;
     width: 50px;
     height: 50px;
-    padding-top: 8px;
     padding-left: 45px; }
 
   .listamenu {
@@ -566,61 +562,26 @@ main h3 {
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    padding-right: 145px; } }
+    padding-right: 145px; }
+
+  .hero__title {
+    background-color: #dbd4d1;
+    opacity: 0.8;
+    transform: translateY(0);
+    padding: 15px 30px;
+    width: auto;
+    margin-left: 30px;
+    font-size: 24px; }
+
+  .equipo1 {
+    margin: 45px 0 15px 0; } }
 body {
   margin: 0; }
 
-h1 {
-  font-family: 'Open Sans',sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px 1.4;
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-main h3 {
-  color: #099d8d;
-  font-family: 'Rubik',sans-serif;
-  font-size: 22px; }
-
-h4 {
-  color: #000000;
-  font-family: 'OpenSans' ,sans-serif;
-  font-size: 20px; }
-
-main p {
-  color: #54585A;
-  font-family: 'OpenSans' ,sans-serif;
-  font-size: 16px; }
-
-h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-main h3 {
-  color: #099d8d;
-  font-family: 'Rubik',sans-serif;
-  font-size: 22px; }
-
-h4 {
-  color: #000000;
-  font-family: 'OpenSans' ,sans-serif;
-  font-size: 20px; }
-
-main p {
-  color: #54585A;
-  font-family: 'OpenSans' ,sans-serif;
-  font-size: 16px; }
-
-.footer {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  padding: 15px;
-  text-align: center; }
+h2 {
+  color: #099D8D;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px; }
 
 main h3 {
   color: #099d8d;
