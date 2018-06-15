@@ -2,11 +2,20 @@
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
+  @media all and (min-width: 768px){
+    margin: 45px 45px 0px 45px;
+  }
+
 }
 .foto{
   border: 5px solid #f1f1f1;
   border-radius: 10px;
   margin-bottom: 15px;
+  @media all and (min-width: 768px){
+      margin-bottom: 0px;
+
+      // ------esto no lo entiendo-------
+  }
 }
 .contenedoriconos{
   display: flex;
@@ -14,7 +23,7 @@
   margin-top: 15px;
 
 }
-.listaiconos + .listaiconos::before {
+.listaiconos + .listaiconos:before {
   content: "·";
   margin: 0 5px;
 }
@@ -30,23 +39,81 @@
 
 @media all and (min-width: 768px) {
 
-.box-descripcion-derecha{
-  display: flex;
-  justify-content:space-between;
-}
+  .quienessomos{
+    margin-top: 45px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
 
-.box-personal{
-  background: red;
-  padding-left: 0px;
-  height: 205px;
-  margin-left: 30px;
-  text-align: left;
+  // .box-descripcion-derecha{
+  //   display: flex;
+  //   justify-content:space-between;
+  // }
+  .box-descripcion-derecha{
 
-}
-.contenedoriconos{
-display: flex;
-justify-content: flex-start;
-margin-left: -38px;
+    display: grid;
+    grid-template-columns:205 1fr;
+    grid-template-rows: 1fr ;
+    grid-gap: 0px;
+    margin-top: 60px;
+
+  }
+  .box-foto-personal{
+    grid-column: 1;
+  }
+  .box-personal{
+    grid-column: 2;
+    padding-left: 0px;
+    height: 205px;
+    margin-left: 30px;
+    text-align: left;
+
+  }
+  .contenedoriconos{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -38px;
+  }
+
+  .box-descripcion-izquierda{
+    display: grid;
+    grid-template-columns: 1fr  205px ;
+    grid-template-rows: 1fr ;
+    grid-gap: 0px;
+    margin-top: 60px;
+
+  }
+  .box-foto-personal2{
+    grid-column: 2;
+
+  }
+  .box-personal2{
+    grid-column: 1;
+    grid-row: 1;
+    padding-right: 0px;
+    height: 205px;
+    margin-right: 30px;
+    text-align: right;
+
+  }
+  .contenedoriconos2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:-30px;
+  }
+  .foto{
+  transition: border-radius ease 5s;
+// ---------no me sale---------
+  &:hover{
+      width: 250px ;
+      border-radius: 50%;
+    }
+  }
+.nombre{
+  transition: font ease 3s;
+  &:hover{
+    font-size: 33px;
+  }
 }
 
 }

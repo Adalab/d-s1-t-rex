@@ -1,6 +1,9 @@
 @charset "UTF-8";
 .equipo {
   text-align: center; }
+  @media all and (min-width: 768px) {
+    .equipo {
+      margin: 45px 45px 60px 45px; } }
 
 h2 {
   color: #099D8D;
@@ -314,18 +317,24 @@ main h3 {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px; }
+  @media all and (min-width: 768px) {
+    .quienessomos {
+      margin: 45px 45px 0px 45px; } }
 
 .foto {
   border: 5px solid #f1f1f1;
   border-radius: 10px;
   margin-bottom: 15px; }
+  @media all and (min-width: 768px) {
+    .foto {
+      margin-bottom: 0px; } }
 
 .contenedoriconos {
   display: flex;
   justify-content: center;
   margin-top: 15px; }
 
-.listaiconos + .listaiconos::before {
+.listaiconos + .listaiconos:before {
   content: "·";
   margin: 0 5px; }
 
@@ -339,12 +348,23 @@ main h3 {
   list-style: none; }
 
 @media all and (min-width: 768px) {
+  .quienessomos {
+    margin-top: 45px;
+    margin-left: 45px;
+    margin-right: 45px; }
+
   .box-descripcion-derecha {
-    display: flex;
-    justify-content: space-between; }
+    display: grid;
+    grid-template-columns: 205 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0px;
+    margin-top: 60px; }
+
+  .box-foto-personal {
+    grid-column: 1; }
 
   .box-personal {
-    background: red;
+    grid-column: 2;
     padding-left: 0px;
     height: 205px;
     margin-left: 30px;
@@ -353,7 +373,41 @@ main h3 {
   .contenedoriconos {
     display: flex;
     justify-content: flex-start;
-    margin-left: -38px; } }
+    margin-left: -38px; }
+
+  .box-descripcion-izquierda {
+    display: grid;
+    grid-template-columns: 1fr 205px;
+    grid-template-rows: 1fr;
+    grid-gap: 0px;
+    margin-top: 60px; }
+
+  .box-foto-personal2 {
+    grid-column: 2; }
+
+  .box-personal2 {
+    grid-column: 1;
+    grid-row: 1;
+    padding-right: 0px;
+    height: 205px;
+    margin-right: 30px;
+    text-align: right; }
+
+  .contenedoriconos2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -30px; }
+
+  .foto {
+    transition: border-radius ease 5s; }
+    .foto:hover {
+      width: 250px;
+      border-radius: 50%; }
+
+  .nombre {
+    transition: font ease 3s; }
+    .nombre:hover {
+      font-size: 33px; } }
 .header {
   position: fixed;
   z-index: 1;
@@ -362,8 +416,8 @@ main h3 {
 .logo {
   height: 60px;
   width: 100%;
-  background: #0c9789;
-  opacity: 0.8; }
+  background: #099d8d;
+  opacity: 0.9; }
 
 .logotipo {
   display: block;
@@ -371,166 +425,7 @@ main h3 {
   margin-right: auto;
   width: 50px;
   height: 50px;
-  padding-top: 8px; }
-
-.hero {
-  background-image: url("../imagenes/cabecera.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px; }
-
-.contenedor {
-  margin: 0 15px;
-  height: 100%;
-  position: relative; }
-
-.hero__title {
-  margin: 0;
-  transform: translateY(16px);
-  width: 100%;
-  padding: 15px;
-  box-sizing: border-box;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background: white;
-  text-align: center;
-  font-size: 18px; }
-
-@media all and (min-width: 768px) {
-  .hero__title {
-    background: rgba(255, 255, 255, 0.8);
-    transform: translateY(0);
-    padding: 15px 30px;
-    width: auto;
-    margin-left: 30px;
-    font-size: 24px; }
-
-  .equipo1 {
-    margin: 45px 0 15px 0; } }
-h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-h2 {
-  color: #099D8D;
-  font-family: 'Rubik', sans-serif;
-  font-size: 24px; }
-
-main h3 {
-  color: #099d8d;
-  font-family: 'Rubik',sans-serif;
-  font-size: 22px; }
-
-h4 {
-  color: #000000;
-  font-family: 'OpenSans' ,sans-serif;
-  font-size: 20px; }
-
-main p {
-  color: #54585A;
-  font-family: 'OpenSans' ,sans-serif;
-  font-size: 16px; }
-
-.fab {
-  color: #099d8d; }
-
-.fas {
-  color: #099d8d; }
-
-.footer {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  padding: 15px;
-  text-align: center; }
-
-h2 {
-  color: #099D8D;
-  font-family: 'Rubik', sans-serif;
-  font-size: 24px; }
-
-main h3 {
-  color: #099d8d;
-  font-family: 'Rubik',sans-serif;
-  font-size: 22px; }
-
-h4 {
-  color: #000000;
-  font-family: 'OpenSans' ,sans-serif;
-  font-size: 20px; }
-
-main p {
-  color: #54585A;
-  font-family: 'OpenSans' ,sans-serif;
-  font-size: 16px; }
-
-.quienessomos {
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-.iconos {
-  display: flex;
-  padding: 10px 40px 30px 40px;
-  width: 100px;
-  height: 50px;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none; }
-
-.listaiconos + .listaiconos::before {
-  content: "·";
-  margin: 0 5px; }
-
-.contenedoriconos {
-  display: flex;
-  justify-content: center;
-  margin-top: 15px; }
-
-.fab {
-  color: #099d8d; }
-
-.fas {
-  color: #099d8d; }
-
-.foto {
-  border: 5px solid #f1f1f1;
-  border-radius: 10px;
-  margin-bottom: 15px; }
-
-.footer {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  padding: 15px;
-  text-align: center; }
-
-.copyrigth {
-  text-align: center;
-  color: #b8b8b9; }
-
-.menu_items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column; }
-
-.menu_links {
-  color: #54585A;
-  text-decoration: none; }
-
-.img {
-  display: block;
-  margin: 30px; }
-
-body {
-  margin: 0; }
+  padding-top: 5px; }
 
 .container {
   overflow: hidden;
@@ -541,7 +436,8 @@ body {
   padding: 0;
   margin: 0;
   height: 45px;
-  background-color: rgba(9, 157, 141, 0.8);
+  background-color: #14d9c4;
+  opacity: 0.9;
   justify-content: space-between;
   display: flex;
   min-width: 100%; }
@@ -569,15 +465,144 @@ body {
   margin-right: 15px; }
 
 .menu__link {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'OpenSans' ,sans-serif;
+  font-family: 'Rubik',sans-serif;
   font-weight: bold;
-  color: white;
-  font-size: 18px;
-  line-height: 25px 1.4;
+  font-size: 15px;
+  line-height: 25px;
   text-decoration: none;
   text-transform: uppercase; }
+
+.hero {
+  background-image: url("../imagenes/cabecera.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px; }
+
+.contenedor {
+  margin: 0 15px;
+  height: 100%;
+  position: relative; }
+
+.hero__title {
+  margin: 0;
+  transform: translateY(16px);
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #ffffff;
+  color: #000000;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 600; }
+
+@media only screen and (min-width: 768px) {
+  .header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    opacity: 1; }
+
+  .container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    background-color: #0c9789;
+    justify-content: space-between;
+    display: flex;
+    min-width: 100%;
+    opacity: 1; }
+
+  .logo {
+    opacity: 1;
+    background-color: #0c9789; }
+
+  .logotipo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    padding-left: 45px; }
+
+  .listamenu {
+    padding: 0;
+    list-style: none;
+    display: flex; }
+
+  .nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-right: 145px; }
+
+  .hero__title {
+    background-color: #dbd4d1;
+    opacity: 0.8;
+    transform: translateY(0);
+    padding: 15px 30px;
+    width: auto;
+    margin-left: 30px;
+    font-size: 24px; }
+
+  .equipo1 {
+    margin: 45px 0 15px 0; } }
+body {
+  margin: 0; }
+
+h2 {
+  color: #099D8D;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px; }
+
+main h3 {
+  color: #099d8d;
+  font-family: 'Rubik',sans-serif;
+  font-size: 22px; }
+
+h4 {
+  color: #000000;
+  font-family: 'OpenSans' ,sans-serif;
+  font-size: 20px; }
+
+main p {
+  color: #54585A;
+  font-family: 'OpenSans' ,sans-serif;
+  font-size: 16px; }
+
+.fab {
+  color: #099d8d; }
+
+.fas {
+  color: #099d8d; }
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 15px;
+  text-align: center; }
+
+.copyrigth {
+  text-align: center;
+  color: #b8b8b9; }
+
+.img {
+  display: block;
+  margin: 30px; }
 
 /*# sourceMappingURL=main.css.map */
