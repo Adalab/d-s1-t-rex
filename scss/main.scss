@@ -1,26 +1,15 @@
+@import "_variables.scss";
 @import "_equipo.scss";
 @import "_fortalezas.scss";
 @import "_headerpaginacontacto.scss";
 @import "_formulario.scss";
 @import "_fortalezas.scss";
 @import "_descripciones.scss";
-@import "_variables.scss";
 @import "_headerpaginaprincipal.scss";
 
 body{
   margin: 0;
 }
-
-
-h1{
-  font-family: 'Open Sans',sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px (1.4);
-  margin-top: 15px;
-  margin-bottom: 15px;
-
-}
 h2{
   color: #099D8D;
   font-family: 'Rubik', sans-serif;
@@ -41,99 +30,23 @@ main p{
   font-family: 'OpenSans' ,sans-serif;
   font-size: 16px;
 }
-
-
-  h1{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    margin-top:15px;
-    margin-bottom: 15px;
-  }
-  h2{
-    color: #099D8D;
-    font-family: 'Rubik', sans-serif;
-    font-size: 24px;
-  }
-  main h3{
-    color: #099d8d;
-    font-family: 'Rubik',sans-serif;
-    font-size: 22px;
-  }
-  h4{
-    color: #000000;
-    font-family: 'OpenSans' ,sans-serif;
-    font-size: 20px;
-  }
-  main p{
-    color: #54585A;
-    font-family: 'OpenSans' ,sans-serif;
-    font-size: 16px;
-  }
-
-
 .fab{
-  color: #099d8d;
+color: #099d8d;
 }
 .fas{
-  color: #099d8d;
+color: #099d8d;
 }
-
-
 .footer {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   padding: 15px;
   text-align: center;
-
 }
-h2{
-  color: #099D8D;
-  font-family: 'Rubik', sans-serif;
-  font-size: 24px;
-}
-main h3{
-  color: #099d8d;
-  font-family: 'Rubik',sans-serif;
-  font-size: 22px;
-}
-h4{
-  color: #000000;
-  font-family: 'OpenSans' ,sans-serif;
-  font-size: 20px;
-}
-main p{
-  color: #54585A;
-  font-family: 'OpenSans' ,sans-serif;
-  font-size: 16px;
-}
-
-.fab{
-  color: #099d8d;
-}
-.fas{
-  color: #099d8d;
-}
-
-.footer {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  padding: 15px;
-  text-align: center;
-
-}
-
 .copyrigth {
   text-align: center;
   color: #b8b8b9;
 }
-
 .img {
   display:block;
   margin: 30px;
-
-}
-body{
-  margin: 0;
 }
