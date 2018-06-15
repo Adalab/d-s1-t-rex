@@ -67,35 +67,6 @@
   text-transform: uppercase;
 }
 
-.hero{
-  background-image: url("../imagenes/cabecera.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-.contenedor{
-  margin: 0 15px;
-  height: 100%;
-  position: relative;
-}
-.hero__title{
-  margin: 0;
-  transform: translateY(16px);
-  width: 100%;
-  padding: 15px;
-  box-sizing: border-box;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background: #ffffff;
-  color: #000000;
-  text-align: center;
-  font-size: 18px;
-  font-family: 'OpenSans', sans-serif;
-  font-weight: 600;
-}
-
 @media only screen and (min-width: 768px) {
 
   .header{
@@ -146,15 +117,7 @@
     width: 100%;
     padding-right: 145px;
   }
-  .hero__title{
-    background-color: #dbd4d1;
-    opacity: 0.8;
-    transform: translateY(0);
-    padding: 15px 30px;
-    width: auto;
-    margin-left: 30px;
-    font-size: 24px;
-  }
+
   .equipo1{
     margin: 45px 0 15px 0;
   }
