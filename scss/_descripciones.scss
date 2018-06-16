@@ -21,15 +21,21 @@
   border-radius: 10px;
   margin-bottom: 15px;
   transition: border-radius ease 5s;
+  width: 180px;
   &:hover{
     width: 250px ;
     border-radius: 50%;
   }
   @media all and (min-width: 768px){
     margin-bottom: 0px;
+    width: 205px;
   }
   @media all and (min-width: 1200px){
     width: 278px;
+    &:hover{
+      width: 3800px ;
+      border-radius: 50%;
+    }
   }
 }
 
@@ -118,11 +124,11 @@
     grid-column: 1;
     grid-row: 1;
     padding-right: 30px;
-    height: 205px;
     text-align: right;
   }
   @media all and (min-width: 1200px){
     width: 439px;
+
   }
 }
 .contenedoriconos2 {
@@ -134,6 +140,15 @@
     justify-content: flex-end;
     margin-right:-30px;
   }
+}
+.nombre{
+  @media all and (min-width: 768px){
+
+  }
+    @media all and (min-width: 1200px){
+      font-size: 24px;
+    }
+
 }
 // .nombre{
 //  transition: font ease 3s;

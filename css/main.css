@@ -334,16 +334,21 @@ main h3 {
   border: 5px solid #f1f1f1;
   border-radius: 10px;
   margin-bottom: 15px;
-  transition: border-radius ease 5s; }
+  transition: border-radius ease 5s;
+  width: 180px; }
   .foto:hover {
     width: 250px;
     border-radius: 50%; }
   @media all and (min-width: 768px) {
     .foto {
-      margin-bottom: 0px; } }
+      margin-bottom: 0px;
+      width: 205px; } }
   @media all and (min-width: 1200px) {
     .foto {
-      width: 278px; } }
+      width: 278px; }
+      .foto:hover {
+        width: 3800px;
+        border-radius: 50%; } }
 
 .contenedoriconos {
   display: flex;
@@ -414,7 +419,6 @@ main h3 {
     grid-column: 1;
     grid-row: 1;
     padding-right: 30px;
-    height: 205px;
     text-align: right; } }
 @media all and (min-width: 1200px) {
   .box-personal2 {
@@ -429,6 +433,10 @@ main h3 {
       display: flex;
       justify-content: flex-end;
       margin-right: -30px; } }
+
+@media all and (min-width: 1200px) {
+  .nombre {
+    font-size: 24px; } }
 
 .header {
   position: fixed;
