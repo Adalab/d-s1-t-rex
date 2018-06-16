@@ -17,16 +17,24 @@
       // ------esto no lo entiendo-------
   }
 }
+
 .contenedoriconos{
   display: flex;
   justify-content: center;
   margin-top: 15px;
 
+  @media all and (min-width: 768px){
+      display: flex;
+      justify-content: flex-start;
+      margin-left: -38px;
+    }
 }
+
 .listaiconos + .listaiconos::before {
   content: "·";
   margin: 0 5px;
 }
+
 .iconos {
   display: flex;
   padding: 10px 40px 30px 40px;
@@ -35,6 +43,14 @@
   align-items: center;
   justify-content: space-between;
   list-style: none;
+}
+
+.fab {
+  color: #099d8d;
+}
+
+.fas {
+  color: #099d8d;
 }
 
 @media all and (min-width: 768px) {
