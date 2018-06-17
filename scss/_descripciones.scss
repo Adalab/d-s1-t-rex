@@ -33,7 +33,11 @@
   @media all and (min-width: 1200px){
     width: 278px;
     &:hover{
+<<<<<<< HEAD
       width: 380px ;
+=======
+      width: 350px ;
+>>>>>>> 533fecffa4c378ce2f4d19bdc97856af7b985532
       border-radius: 50%;
     }
   }
@@ -99,7 +103,7 @@
     text-align: left;
   }
   @media all and (min-width: 1200px){
-    padding-right: 45px;
+    padding-left: 45px;
     width: 439px;
   }
   }
@@ -107,8 +111,8 @@
   .box-descripcion-izquierda{
     @media all and (min-width: 768px){
     display: grid;
-    grid-template-columns: 1fr  205px ;
-    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr 205;
+    grid-template-rows: 1fr;
     grid-gap: 0px;
     margin-top: 60px;
   }
@@ -127,6 +131,7 @@
     text-align: right;
   }
   @media all and (min-width: 1200px){
+    padding-right: 45px;
     width: 439px;
 
   }

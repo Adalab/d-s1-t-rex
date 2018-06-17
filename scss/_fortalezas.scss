@@ -12,6 +12,7 @@ main h3 {
     background: #f1f1f1;
     padding: 30px 15px 45px 15px;
 
+
   @media all and (min-width: 768px){
     padding-top: 45px;
     padding-bottom: 60px;
@@ -20,6 +21,11 @@ main h3 {
 
   }
 
+  @media all and (min-width: 1200px){
+    padding-left: 138px;
+    padding-right: 138px;
+
+  }
 }
 
 .sectionfortaleza {

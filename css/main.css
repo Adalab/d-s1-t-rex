@@ -38,6 +38,10 @@ main h3 {
       padding-bottom: 60px;
       display: flex;
       justify-content: space-between; } }
+  @media all and (min-width: 1200px) {
+    .fortalezasydebilidades {
+      padding-left: 138px;
+      padding-right: 138px; } }
 
 @media all and (min-width: 768px) {
   .sectionfortaleza {
@@ -298,6 +302,10 @@ main h3 {
       padding-bottom: 60px;
       display: flex;
       justify-content: space-between; } }
+  @media all and (min-width: 1200px) {
+    .fortalezasydebilidades {
+      padding-left: 138px;
+      padding-right: 138px; } }
 
 @media all and (min-width: 768px) {
   .sectionfortaleza {
@@ -347,7 +355,11 @@ main h3 {
     .foto {
       width: 278px; }
       .foto:hover {
+<<<<<<< HEAD
         width: 380px;
+=======
+        width: 350px;
+>>>>>>> 533fecffa4c378ce2f4d19bdc97856af7b985532
         border-radius: 50%; } }
 
 .contenedoriconos {
@@ -399,13 +411,13 @@ main h3 {
     text-align: left; } }
 @media all and (min-width: 1200px) {
   .box-personal {
-    padding-right: 45px;
+    padding-left: 45px;
     width: 439px; } }
 
 @media all and (min-width: 768px) {
   .box-descripcion-izquierda {
     display: grid;
-    grid-template-columns: 1fr 205px;
+    grid-template-columns: 1fr 205;
     grid-template-rows: 1fr;
     grid-gap: 0px;
     margin-top: 60px; } }
@@ -422,6 +434,7 @@ main h3 {
     text-align: right; } }
 @media all and (min-width: 1200px) {
   .box-personal2 {
+    padding-right: 45px;
     width: 439px; } }
 
 .contenedoriconos2 {
