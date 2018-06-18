@@ -3,8 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>T-Rex</title>
-  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:400,500" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -20,7 +19,7 @@
         <ul class="listamenu">
           <li class="menu__items"><a href="#EQUIPOMENU" class="menu__link">Equipo</a></li>
           <li class="menu__items"><a href="#QUIENESSOMOSMENU" class="menu__link">Quiénes somos</a></li>
-          <li class="menu__items"><a href="#" class="menu__link">Contacto</a></li>
+          <li class="menu__items"><a href="contacto.html" class="menu__link">Contacto</a></li>
         </ul>
       </nav>
     </div>
@@ -33,15 +32,12 @@
     </section>
     <section class="hero__cabecera">
     </section>
-
-    <!-- equipo -->
-    <section class="equipo">
+    <section  id="EQUIPOMENU" class="equipo">
       <div class="descripcion">
-        <h2 id="EQUIPOMENU">EQUIPO</h2>
+        <h2>EQUIPO</h2>
         <p>Somos T-Rex, cinco mujeres que formamos un gran equipo con el objetivo de explorar el mundo de la programación front-end. </p>
         <p>Participando activamente en reducir la brecha de género en el sector tecnológico, y con la particularidad de proceder de áreas totalmente diferentes, lo cual nos hace más fuertes y especiales.</p>
       </div>
-
       <!--  fortalezas y Debilidades-->
       <aside class="fortalezasydebilidades">
         <div class="sectionfortaleza set-fort-1">
@@ -53,13 +49,10 @@
           <p>Como principiantes en el sector, y con escasos conocimientos técnicos por ahora, somos conscientes de que el perfeccionismo que a veces nos crece, como grupo nos llega a frenar.</p>
         </div>
       </aside>
-
     </section>
-
-    <!-- descripciones -->
-    <section class="quienessomos">
-      <h2 id="QUIENESSOMOSMENU">QUIÉNES SOMOS</h2>
+    <section id="QUIENESSOMOSMENU" class="quienessomos">
       <div class="descripciones">
+        <h2 class="equipo2">QUIÉNES SOMOS</h2>
         <div class="box-descripcion-derecha">
           <div class="box-foto-personal">
             <img class="foto" src="imagenes/equipo/claudia.jpg" alt="Claudia">
@@ -132,7 +125,6 @@
           </div>
         </div>
   </div>
-
         <div class="box-descripcion-derecha">
           <div class="box-foto-personal">
             <img class="foto" src="imagenes/equipo/vero.jpg" alt="Verónica">
@@ -156,21 +148,16 @@
 </div>
   </section>
 </main>
-<footer class="footer">
-  <hr  style="color: #b8b8b9;" />
-  <div class="copyrigth"><p>T-Rex © 2018</p></div>
-  <nav>
-    <ul class="menu_items">
-      <il><a class="menu_links" href="#EQUIPOMENU">EQUIPO</a></il>
-      <il><a class="menu_links" href="#QUIENESSOMOSMENU">QUIENES SOMOS</a></il>
-      <il><a class="menu_links" href="">CONTACTO</a></il>
+<footer class="pag__footer">
+  <p class="copy">T-Rex © 2018</p>
+  <nav class="footer__nav">
+    <ul class="footer__list">
+      <li class="footer__item"><a class="footer__link" href="#EQUIPOMENU">EQUIPO</a></li>
+      <li class="footer__item"><a class="footer__link" href="#QUIENESSOMOSMENU">QUIÉNES SOMOS</a></li>
+      <li class="footer__item"><a class="footer__link" href="contacto.html">CONTACTO</a></li>
     </ul>
   </nav>
-  <aside>
-    <div class="img">
-      <a href="http://www.adalab.es"><img src="imagenes/logo_adalab_movil.png"></a>
-    </div>
-  </aside>
+  <a class="footerlogo" href="http://www.adalab.es/"><img src="imagenes/logo_adalab_movil.png" alt="logo"></a>
 </footer>
 </body>
 </html>

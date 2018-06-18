@@ -1,21 +1,23 @@
 /* estilos del formulario*/
 
+.nombrecontacto{
+  text-align: center;
+}
+.textocontacto{
+  text-align: center;
+}
 .formulariocontacto {
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 align-content: center;
 align-items: center;
-
 }
-
-
 label  {
 display:inline-block;
 width: 442px;
 padding: 5px 20px;
 margin: 8px 0;
-display: inline-block;
 sizing: 30px;
 }
 
@@ -50,6 +52,9 @@ display: inline-block;
 border-radius: 4px;
 box-sizing: border-box;
 sizing: 45px;
+}
+.asterisco{
+  color: cyan;
 }
 
 /* estilos del formulario*/
@@ -94,40 +99,25 @@ margin-left: 460px;
   width: 601px;
   }
 
-/* Foto cabecera de contacto para que se amplie a 400px*/
-.photocabeceracontacto {
-  height: 400px;
-
-}
-
 .bttenvio {
 width: 601px;
 display: flex;
 align-self: center;
 margin-left: 800px;
 }
-
-
 label  {
 display:inline-block;
 width: 601px;
 align-self: center;
-
 }
-
   input  {
   width: 601px;
-
-
 }
 
 textarea {
   width: 601px;
-
 }
-
 .botonenviar {
-
 width: 601px;
 background-color: #099d8d;
 color: white;
