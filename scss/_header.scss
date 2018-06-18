@@ -1,7 +1,7 @@
 
 .header{
   position: fixed;
-  width: 100vw;
+  width: 100%;
   z-index: 1;
 }
 .logo{
@@ -42,6 +42,9 @@
 .menu__items:last-child{
   margin-right: 0;
 }
+.menu__items:first-child{
+  margin-left: 0;
+}
 .menu__link{
   text-decoration: none;
   text-transform: uppercase;
@@ -53,23 +56,30 @@
 }
 @media all and (min-width:768px){
   .header{
-    display: flex;
+    background-color: #099d8d;
+    width: 100;
   }
-  .logo{
-    width: 50vw;
+  .pag__header{
+    display: flex;
     height: 60px;
-    opacity: 1;
-    padding-left:45px;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 45px;
+    padding-right:45px;
   }
   .container{
-    width: 50vw;
-    height: 60px;
+    box-sizing: border-box;
     background-color: #099d8d;
-    opacity: 1;
-    padding-right: 45px;
-    justify-content: flex-end;
   }
-  .listamenu{
+}
+@media all and (min-width:1200px){
+  .header{
+    display: flex;
+    justify-content: center;
+  }
+  .pag__header{
+    width: 924px;
+    padding: 0;
+
   }
 }

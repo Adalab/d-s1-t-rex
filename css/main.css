@@ -335,7 +335,7 @@ main h3 {
 
 .header {
   position: fixed;
-  width: 100vw;
+  width: 100%;
   z-index: 1; }
 
 .logo {
@@ -372,6 +372,9 @@ main h3 {
 .menu__items:last-child {
   margin-right: 0; }
 
+.menu__items:first-child {
+  margin-left: 0; }
+
 .menu__link {
   text-decoration: none;
   text-transform: uppercase;
@@ -383,22 +386,28 @@ main h3 {
 
 @media all and (min-width: 768px) {
   .header {
-    display: flex; }
+    background-color: #099d8d;
+    width: 100; }
 
-  .logo {
-    width: 50vw;
+  .pag__header {
+    display: flex;
     height: 60px;
-    opacity: 1;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 45px;
-    justify-content: flex-start; }
+    padding-right: 45px; }
 
   .container {
-    width: 50vw;
-    height: 60px;
-    background-color: #099d8d;
-    opacity: 1;
-    padding-right: 45px;
-    justify-content: flex-end; } }
+    box-sizing: border-box;
+    background-color: #099d8d; } }
+@media all and (min-width: 1200px) {
+  .header {
+    display: flex;
+    justify-content: center; }
+
+  .pag__header {
+    width: 924px;
+    padding: 0; } }
 .hero {
   background-image: url("../imagenes/cabecera.jpg");
   background-position: center center;
@@ -434,8 +443,25 @@ main h3 {
     transform: translateY(0);
     padding: 15px 30px;
     width: auto;
-    margin-left: 30px;
-    font-size: 24px; } }
+    font-size: 24px;
+    margin-left: 45px; }
+
+  .contenedor {
+    margin: 0; } }
+@media all and (min-width: 1200px) {
+  .photocabeceracontacto {
+    height: 400px; }
+
+  .hero {
+    display: flex;
+    justify-content: center; }
+
+  .contenedor {
+    width: 924px;
+    margin: 0; }
+
+  .hero__title {
+    margin: 0; } }
 .photocabeceracontacto {
   background-image: url("../imagenes/contacto.jpg");
   height: 300px;
@@ -445,9 +471,6 @@ main h3 {
   background-repeat: no-repeat;
   background-position: center 30%; }
 
-@media all and (min-width: 1200px) {
-  .photocabeceracontacto {
-    height: 400px; } }
 .pag__footer {
   text-align: center;
   font-family: 'OpenSans', sans-serif;
@@ -464,7 +487,8 @@ main h3 {
 .footer__nav {
   padding-left: 0;
   font-weight: 600;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  line-height: 30px; }
 
 .footer__list {
   padding-left: 0;
@@ -479,13 +503,15 @@ main h3 {
 
 @media all and (min-width: 768px) {
   .pag__footer {
+    padding-bottom: 60px;
+    padding-top: 0; }
+
+  .footer__Div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    position: relative;
-    padding-bottom: 60px;
-    padding-top: 0; }
+    position: relative; }
 
   .copy {
     padding-top: 30px;
@@ -495,14 +521,13 @@ main h3 {
     position: absolute;
     align-self: flex-end;
     margin-bottom: 0;
-    padding-top: 25px; }
-
-  .footer__item {
-    margin-bottom: 15px; } }
+    padding-top: 25px;
+    text-align: right; } }
 @media all and (min-width: 1200px) {
-  .pag__footer {
-    padding-left: 140px;
-    padding-right: 140px; } }
+  .footer__Div {
+    width: 924px;
+    margin-left: auto;
+    margin-right: auto; } }
 body, h2 {
   margin: 0; }
 
