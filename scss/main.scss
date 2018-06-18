@@ -6,6 +6,7 @@
 @import "_descripciones.scss";
 @import "_header.scss";
 @import "_hero.scss";
+@import "_footer.scss";
 
 body{
   margin: 0;
@@ -35,18 +36,4 @@ color: #099d8d;
 }
 .fas{
 color: #099d8d;
-}
-.footer {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  padding: 15px;
-  text-align: center;
-}
-.copyrigth {
-  text-align: center;
-  color: #b8b8b9;
-}
-.img {
-  display:block;
-  margin: 30px;
 }

@@ -31,33 +31,28 @@
     <h2 id="CONTACTO" class="nombrecontacto">CONTACTO</h2>
     <p class="textocontacto"> Si quieres consultar más información sobre nuestro grupo y los servicios que prestamos, no dudes en contactarnos.</p>
     <form class="formulariocontacto" action="index.html" method="post">
-      <label for="nombre">Nombre completo *</label>
+      <label for="nombre">Nombre completo <span class="asterisco">*</span></label>
       <input placeholder="Nombre completo" type="text" name="nombre" value="" required>
-      <label for="nombre">E-mail *</label required>
-      <input placeholder="Email"type="email" name="email" value="nombre.apellidos@mail.com">
-      <label for="Telefono">Telefono</label required>
-      <input placeholder="Telefono r"type="tel" name="telefono" value="">
-      <label for="Mensaje">Comentario *</label required>
-      <textarea name="comentario" placeholder="pon aqui tu comentario"rows="8" cols="80"></textarea>
-      <div class="bttenvio">
-      <input class="botonenviar"type="submit" value="ENVIAR" />
-      </div>
-      </form>
-      <footer class="footer">
-        <center>
-          <div class="copyrigth"><p>T-Rex © 2018</p></div>
-          <nav>
-            <ul class="menu_items">
-              <il><a class="menu_links" href="">EQUIPO</a></il>
-              <il><a class="menu_links" href="">QUIENES SOMOS</a></il>
-              <il><a class="menu_links" href="">CONTACTO</a></il>
+      <label for="email">E-mail <span class="asterisco">*</span></label required>
+        <input placeholder="Email"type="email" name="email" value="nombre.apellidos@mail.com">
+        <label for="Telefono">Telefono</label required>
+          <input placeholder="Ej: 123456789 "type="tel" name="telefono" value="">
+          <label for="Mensaje">Comentario <span class="asterisco">*</span></label required>
+            <textarea name="comentario" placeholder="Escribe aqui tu comentario"rows="8" cols="80"></textarea>
+            <div class="bttenvio">
+              <input class="botonenviar"type="submit" value="ENVIAR" />
+            </div>
+          </div>
+        </form>
+        <footer class="pag__footer">
+          <p class="copy">T-Rex © 2018</p>
+          <nav class="footer__nav">
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__link" href="index.html#EQUIPOMENU">EQUIPO</a></li>
+              <li class="footer__item"><a class="footer__link" href="index.html#QUIENESSOMOSMENU">QUIÉNES SOMOS</a></li>
+              <li class="footer__item"><a class="footer__link" href="contacto.html">CONTACTO</a></li>
             </ul>
           </nav>
-          <aside>
-            <div class="img">
-              <a href="http://www.adalab.es"><img src="http://adalab.es/wp-content/uploads/2016/08/logo_adalab_80px.png"></img></a>
-            </div>
-          </aside>
-        </center>
-      </footer>
-      </html>
+          <a class="footerlogo" href="http://www.adalab.es/"><img src="imagenes/logo_adalab_movil.png" alt="logo"></a>
+        </footer>
+        </html>

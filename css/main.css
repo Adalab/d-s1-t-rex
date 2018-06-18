@@ -48,6 +48,12 @@ main h3 {
     margin-left: 45px; } }
 
 /* estilos del formulario*/
+.nombrecontacto {
+  text-align: center; }
+
+.textocontacto {
+  text-align: center; }
+
 .formulariocontacto {
   display: flex;
   flex-direction: column;
@@ -60,7 +66,6 @@ label {
   width: 442px;
   padding: 5px 20px;
   margin: 8px 0;
-  display: inline-block;
   sizing: 30px; }
 
 input {
@@ -92,6 +97,9 @@ textarea {
   box-sizing: border-box;
   sizing: 45px; }
 
+.asterisco {
+  color: cyan; }
+
 /* estilos del formulario*/
 @media only screen and (min-width: 768px) {
   /*  aqui empiezan los estilos del formulario*/
@@ -116,10 +124,6 @@ textarea {
   .formulariocompleto {
     background-color: red;
     width: 601px; }
-
-  /* Foto cabecera de contacto para que se amplie a 400px*/
-  .photocabeceracontacto {
-    height: 400px; }
 
   .bttenvio {
     width: 601px;
@@ -276,48 +280,34 @@ main h3 {
       font-size: 33px; } }
 .header {
   position: fixed;
-  z-index: 1;
-  width: 100%; }
+  width: 100vw;
+  z-index: 1; }
 
 .logo {
+  background-color: #099d8d;
   height: 60px;
-  width: 100%;
-  background: #099d8d;
-  opacity: 0.9; }
-
-.logotipo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50px;
-  height: 50px;
-  padding-top: 5px; }
-
-.container {
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-  height: 45px;
-  background-color: #14d9c4;
-  opacity: 0.9;
-  justify-content: space-between;
-  display: flex;
-  min-width: 100%; }
-
-.nav-menu {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; }
+  opacity: 0.9; }
+
+.logotipo {
+  width: 50px;
+  height: 50px;
+  padding-top: 3px; }
+
+.container {
+  background-color: #14d9c4;
+  opacity: 0.9;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .listamenu {
-  padding: 0;
+  margin: 0;
   list-style: none;
-  display: flex; }
+  padding: 0; }
 
 .menu__items {
   display: inline;
@@ -325,78 +315,41 @@ main h3 {
   margin-right: 15px; }
 
 .menu__items:last-child {
-  margin-left: 15px; }
-
-.menu__items:last-child {
-  margin-right: 15px; }
+  margin-right: 0; }
 
 .menu__link {
-  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Rubik',sans-serif;
-  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
   font-size: 15px;
   line-height: 25px;
-  text-decoration: none;
-  text-transform: uppercase; }
+  color: #FFFFFF; }
 
-@media only screen and (min-width: 768px) {
+@media all and (min-width: 768px) {
   .header {
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    opacity: 1; }
-
-  .container {
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    height: 60px;
-    background-color: #0c9789;
-    justify-content: space-between;
-    display: flex;
-    min-width: 100%;
-    opacity: 1; }
-
-  .logo {
-    opacity: 1;
-    background-color: #0c9789; }
-
-  .logotipo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50px;
-    height: 50px;
-    padding-left: 45px; }
-
-  .listamenu {
-    padding: 0;
-    list-style: none;
     display: flex; }
 
-  .nav-menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    padding-right: 145px; }
+  .logo {
+    width: 50vw;
+    height: 60px;
+    opacity: 1;
+    padding-left: 45px;
+    justify-content: flex-start; }
 
-  .equipo1 {
-    margin: 45px 0 15px 0; } }
+  .container {
+    width: 50vw;
+    height: 60px;
+    background-color: #099d8d;
+    opacity: 1;
+    padding-right: 45px;
+    justify-content: flex-end; } }
 .hero {
   background-image: url("../imagenes/cabecera.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px; }
+  height: 300px; }
 
 .contenedor {
   margin: 0 15px;
@@ -430,13 +383,67 @@ main h3 {
     font-size: 24px; } }
 .photocabeceracontacto {
   background-image: url("../imagenes/contacto.jpg");
-  height: 500px;
+  height: 300px;
   width: 100%;
   background-size: cover;
   margin: auto;
   background-repeat: no-repeat;
   background-position: center 30%; }
 
+@media all and (min-width: 1200px) {
+  .photocabeceracontacto {
+    height: 400px; } }
+.pag__footer {
+  text-align: center;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 14px;
+  padding: 30px 45px 45px 45px;
+  border-top: 1px solid #b8b8b9; }
+
+.copy {
+  font-weight: 400;
+  color: #b8b8b9;
+  margin-bottom: 20px;
+  margin-top: 0; }
+
+.footer__nav {
+  padding-left: 0;
+  font-weight: 600;
+  margin-bottom: 30px; }
+
+.footer__list {
+  padding-left: 0;
+  margin: 0; }
+
+.footer__item {
+  list-style: none; }
+
+.footer__link {
+  text-decoration: none;
+  color: #54585A; }
+
+@media all and (min-width: 768px) {
+  .pag__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 60px;
+    padding-top: 0; }
+
+  .copy {
+    padding-top: 30px;
+    margin-bottom: 15px; }
+
+  .footer__nav {
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 0;
+    padding-top: 25px; }
+
+  .footer__item {
+    margin-bottom: 15px; } }
 body {
   margin: 0; }
 
@@ -465,19 +472,5 @@ main p {
 
 .fas {
   color: #099d8d; }
-
-.footer {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  padding: 15px;
-  text-align: center; }
-
-.copyrigth {
-  text-align: center;
-  color: #b8b8b9; }
-
-.img {
-  display: block;
-  margin: 30px; }
 
 /*# sourceMappingURL=main.css.map */

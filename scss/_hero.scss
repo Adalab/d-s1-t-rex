@@ -3,7 +3,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 300px;
 }
 .contenedor{
   margin: 0 15px;
@@ -39,10 +39,15 @@
 }
 .photocabeceracontacto {
   background-image:url("../imagenes/contacto.jpg");
-  height: 500px;
+  height: 300px;
   width: 100%;
   background-size: cover;
   margin:auto;
   background-repeat: no-repeat;
   background-position: center 30%;
+}
+@media all and (min-width:1200px){
+  .photocabeceracontacto{
+    height: 400px;
+  }
 }
