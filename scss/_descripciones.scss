@@ -83,11 +83,15 @@
 .box-descripcion-derecha{
   @media all and (min-width: 768px){
     display: grid;
-    grid-template-columns:205 1fr;
-    grid-template-rows: 1fr ;
+    grid-template-columns: 205px 1fr;
+    grid-template-rows: 1fr;
     grid-gap: 0px;
     margin-top: 60px;
+
   }
+    @media all and (min-width: 1200px){
+      grid-template-columns: 278px 1fr;
+    }
 }
 
 .box-foto-personal {
@@ -109,15 +113,19 @@
   }
 }
 
-.box-descripcion-izquierda{
+.box-descripcion-izquierda {
   @media all and (min-width: 768px){
     display: grid;
-    grid-template-columns: 1fr 205;
+    grid-template-columns: 1fr 205px;
     grid-template-rows: 1fr;
     grid-gap: 0px;
     margin-top: 60px;
   }
+  @media all and (min-width: 1200px){
+    grid-template-columns: 1fr 278px;
+  }
 }
+
 .box-foto-personal2{
   @media all and (min-width: 768px){
     grid-column: 2;
@@ -132,10 +140,12 @@
     text-align: right;
   }
   @media all and (min-width: 1200px){
-    padding-right: 45px;
+    padding-left: 207px;
     width: 439px;
+
   }
 }
+
 .contenedoriconos2 {
   display: flex;
   justify-content: center;
@@ -146,13 +156,13 @@
     margin-right:-30px;
   }
 }
+
 .nombre{
   @media all and (min-width: 768px){
   }
   @media all and (min-width: 1200px){
     font-size: 24px;
   }
-
 }
 // .nombre{
 //  transition: font ease 3s;
