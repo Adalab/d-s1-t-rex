@@ -4,17 +4,20 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin:30px 15px 45px 15px;
 
-  @media all and (min-width: 768px){
-    margin: 45px 45px 45px 45px;
-  }
-  @media all and (min-width: 1200px){
-    margin: 45px 140px 60px 140px;
-    width: 924px;
   }
 
-}
+  .descripciones{
+    margin:30px 15px 45px 15px;
+
+    @media all and (min-width: 768px){
+      margin: 45px 45px 45px 45px;
+    }
+    @media all and (min-width: 1200px){
+      margin: 45px 140px 60px 140px;
+      width: 924px;
+    }
+  }
 
 .foto{
   border: 5px solid #f1f1f1;
@@ -33,11 +36,7 @@
   @media all and (min-width: 1200px){
     width: 278px;
     &:hover{
-<<<<<<< HEAD
       width: 380px ;
-=======
-      width: 350px ;
->>>>>>> 533fecffa4c378ce2f4d19bdc97856af7b985532
       border-radius: 50%;
     }
   }
@@ -92,7 +91,6 @@
     @media all and (min-width: 768px){
     grid-column: 1;
   }
-
   }
 
   .box-personal {
@@ -127,13 +125,11 @@
   @media all and (min-width: 768px) {
     grid-column: 1;
     grid-row: 1;
-    padding-right: 30px;
     text-align: right;
   }
   @media all and (min-width: 1200px){
     padding-right: 45px;
     width: 439px;
-
   }
 }
 .contenedoriconos2 {
