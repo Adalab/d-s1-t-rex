@@ -1,24 +1,27 @@
 .equipo{
   text-align: center;
-    @media all and (min-width: 768px){
-      margin:45px 45px 60px 45px;
-    }
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
+
 h2{
   color: #099D8D;
   font-family: 'Rubik', sans-serif;
   font-size: 24px;
-}
-
-
-@media all and (min-width: 768px){
-
-.descripcion{
-  padding-top: 45px;
-  padding-bottom: 60px;
-}
-h2{
   padding-bottom: 15px;
 }
+
+.descripcion {
+  padding: 30px 15px 45px 15px;
+
+    @media all and (min-width: 768px){
+    padding:45px 45px 60px 45px;
+  }
+
+  @media all and (min-width: 1200px){
+      width: 601px;
+    }
+
 }
