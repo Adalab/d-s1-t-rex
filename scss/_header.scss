@@ -5,7 +5,7 @@
   z-index: 1;
 }
 .logo{
-  background-color: #099d8d;
+  background-color: $colorVerdeoscuro;
   height: 60px;
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@
   padding-top: 3px;
 }
 .container{
-  background-color: #14d9c4;
+  background-color: $colorVerdeclaro;
   opacity: 0.9;
   height: 45px;
   display: flex;
@@ -52,12 +52,11 @@
   font-weight: 500;
   font-size: 15px;
   line-height: 25px;
-  color: #FFFFFF;
+  color: $colorBlanco;
 }
 @media all and (min-width:768px){
   .header{
-    background-color: #099d8d;
-    width: 100;
+    background-color: $colorVerdeoscuro;
   }
   .pag__header{
     display: flex;
@@ -69,7 +68,7 @@
   }
   .container{
     box-sizing: border-box;
-    background-color: #099d8d;
+    background-color: $colorVerdeoscuro;
   }
 }
 @media all and (min-width:1200px){

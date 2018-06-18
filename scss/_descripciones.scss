@@ -23,7 +23,7 @@
 }
 
 .foto{
-  border: 5px solid #f1f1f1;
+  border: 5px solid $colorGrisdefondo;
   border-radius: 10px;
   margin-bottom: 15px;
   transition: border-radius ease 5s;
@@ -73,11 +73,11 @@
 }
 
 .fab{
-  color: #099d8d;
+  color: $colorVerdeoscuro;
 }
 
 .fas{
-  color: #099d8d;
+  color: $colorVerdeoscuro;
 }
 
 .box-descripcion-derecha{

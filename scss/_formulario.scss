@@ -1,10 +1,13 @@
 /* estilos del formulario*/
-
 .nombrecontacto{
   text-align: center;
+margin-top: 30px;
 }
 .textocontacto{
   text-align: center;
+  margin: 0;
+  margin-bottom: 60px;
+
 }
 .formulariocontacto {
 display: flex;
@@ -12,6 +15,7 @@ flex-direction: column;
 flex-wrap: wrap;
 align-content: center;
 align-items: center;
+
 }
 label  {
 display:inline-block;
@@ -43,7 +47,7 @@ textarea {
 }
 
 .botonenviar {
-background-color: #099d8d;
+background-color: $colorVerdeoscuro;
 color: white;
 width: 442px;
 margin-bottom: 60px;
@@ -68,7 +72,7 @@ sizing: 45px;
 
 /*  aqui empiezan los estilos del formulario*/
 .botonenviar {
-background-color: #099d8d;
+background-color: $colorVerdeoscuro;
 color: white;
 width: 206px;
 margin-bottom: 60px;
@@ -94,6 +98,9 @@ margin-left: 460px;
 
 @media only screen and (min-width: 1200px){
 
+.nombrecontacto{
+  margin-top: 45px;
+}
   .formulariocompleto {
   background-color: red;
   width: 601px;
@@ -119,7 +126,7 @@ textarea {
 }
 .botonenviar {
 width: 601px;
-background-color: #099d8d;
+background-color: $colorVerdeoscuro;
 color: white;
 width: 206px;
 margin-bottom: 60px;

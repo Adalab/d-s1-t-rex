@@ -3,14 +3,14 @@ text-align: center;
 font-family: 'OpenSans', sans-serif;
 font-size: 14px;
 padding: 30px 45px 45px 45px;
-border-top: 1px solid #b8b8b9;
+border-top: 1px solid $colorGrisclaro;
 }
 .footer__Div{
 
 }
 .copy{
 font-weight: 400;
-color: #b8b8b9;
+color: $colorGrisclaro;
 margin-bottom: 20px;
 margin-top: 0;
 
@@ -30,7 +30,7 @@ list-style: none;
 }
 .footer__link{
 text-decoration: none;
-color: #54585A;
+color: $colorGrisoscuro;
 }
 
 @media all and (min-width:768px){
