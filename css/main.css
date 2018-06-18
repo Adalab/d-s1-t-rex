@@ -276,10 +276,13 @@ main h3 {
 @media all and (min-width: 768px) {
   .box-descripcion-derecha {
     display: grid;
-    grid-template-columns: 205 1fr;
+    grid-template-columns: 205px 1fr;
     grid-template-rows: 1fr;
     grid-gap: 0px;
     margin-top: 60px; } }
+@media all and (min-width: 1200px) {
+  .box-descripcion-derecha {
+    grid-template-columns: 278px 1fr; } }
 
 @media all and (min-width: 768px) {
   .box-foto-personal {
@@ -299,10 +302,13 @@ main h3 {
 @media all and (min-width: 768px) {
   .box-descripcion-izquierda {
     display: grid;
-    grid-template-columns: 1fr 205;
+    grid-template-columns: 1fr 205px;
     grid-template-rows: 1fr;
     grid-gap: 0px;
     margin-top: 60px; } }
+@media all and (min-width: 1200px) {
+  .box-descripcion-izquierda {
+    grid-template-columns: 1fr 278px; } }
 
 @media all and (min-width: 768px) {
   .box-foto-personal2 {
@@ -316,7 +322,7 @@ main h3 {
     text-align: right; } }
 @media all and (min-width: 1200px) {
   .box-personal2 {
-    padding-right: 45px;
+    padding-left: 207px;
     width: 439px; } }
 
 .contenedoriconos2 {

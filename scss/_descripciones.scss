@@ -5,22 +5,22 @@
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
-    @media all and (min-width: 768px){
-      margin-top: 45px;
-    }
+  @media all and (min-width: 768px){
+    margin-top: 45px;
   }
+}
 
-  .descripciones{
-    margin:30px 15px 45px 15px;
+.descripciones{
+  margin:30px 15px 45px 15px;
 
-    @media all and (min-width: 768px){
-      margin: 45px 45px 45px 45px;
-    }
-    @media all and (min-width: 1200px){
-      margin: 45px 140px 60px 140px;
-      width: 924px;
-    }
+  @media all and (min-width: 768px){
+    margin: 45px 45px 45px 45px;
   }
+  @media all and (min-width: 1200px){
+    margin: 45px 140px 60px 140px;
+    width: 924px;
+  }
+}
 
 .foto{
   border: 5px solid #f1f1f1;
@@ -80,24 +80,28 @@
   color: #099d8d;
 }
 
-  .box-descripcion-derecha{
-    @media all and (min-width: 768px){
+.box-descripcion-derecha{
+  @media all and (min-width: 768px){
     display: grid;
-    grid-template-columns:205 1fr;
-    grid-template-rows: 1fr ;
+    grid-template-columns: 205px 1fr;
+    grid-template-rows: 1fr;
     grid-gap: 0px;
     margin-top: 60px;
-  }
-  }
 
-  .box-foto-personal {
-    @media all and (min-width: 768px){
+  }
+    @media all and (min-width: 1200px){
+      grid-template-columns: 278px 1fr;
+    }
+}
+
+.box-foto-personal {
+  @media all and (min-width: 768px){
     grid-column: 1;
   }
-  }
+}
 
-  .box-personal {
-    @media all and (min-width: 768px){
+.box-personal {
+  @media all and (min-width: 768px){
     grid-column: 2;
     padding-left: 30px;
     height: 205px;
@@ -107,19 +111,23 @@
     padding-left: 45px;
     width: 439px;
   }
-  }
+}
 
-  .box-descripcion-izquierda{
-    @media all and (min-width: 768px){
+.box-descripcion-izquierda {
+  @media all and (min-width: 768px){
     display: grid;
-    grid-template-columns: 1fr 205;
+    grid-template-columns: 1fr 205px;
     grid-template-rows: 1fr;
     grid-gap: 0px;
     margin-top: 60px;
   }
+  @media all and (min-width: 1200px){
+    grid-template-columns: 1fr 278px;
   }
-  .box-foto-personal2{
-    @media all and (min-width: 768px){
+}
+
+.box-foto-personal2{
+  @media all and (min-width: 768px){
     grid-column: 2;
   }
 }
@@ -132,10 +140,12 @@
     text-align: right;
   }
   @media all and (min-width: 1200px){
-    padding-right: 45px;
+    padding-left: 207px;
     width: 439px;
+
   }
 }
+
 .contenedoriconos2 {
   display: flex;
   justify-content: center;
@@ -146,13 +156,13 @@
     margin-right:-30px;
   }
 }
+
 .nombre{
   @media all and (min-width: 768px){
   }
-    @media all and (min-width: 1200px){
-      font-size: 24px;
-    }
-
+  @media all and (min-width: 1200px){
+    font-size: 24px;
+  }
 }
 // .nombre{
 //  transition: font ease 3s;
